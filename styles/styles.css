@@ -1,10 +1,13 @@
  body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #e4e4e4;
     margin: 0;
     padding: 0;
  }
 
+li {
+    list-style: none;
+}
 
  .glowa {
     background: #3D6AD6;
@@ -41,8 +44,8 @@
  }
 
  .profile-picture {
-     width: 250px;
-     height: 250px;
+     width: 220px;
+     height: 220px;
      border-radius: 50%;
      background-color: #ccc;
      flex-shrink: 0;
@@ -52,15 +55,56 @@
      margin-top: -100px;
  }
 
- .profile-info {
-     margin-right: 20px;
+
+
+ .ul-inc {
+
  }
 
- .name {
-     font-size: 24px;
-     font-weight: bold;
-     margin-bottom: 10px;
- }
+.profile-inc {
+    max-width: 414px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 1px 20px 20px;
+    margin-top: 36px;
+    margin-left: 30px;
+}
+
+.message-button,
+.profile-info {
+    display: inline-block;
+}
+
+.ccx-inc {
+    text-decoration: none;
+    color: #557DDB;
+    margin-left: 180px;
+    
+}
+
+.text-inc,
+.ccx-inc {
+    display: inline-block;
+}
+
+.lis-inc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+}
+
+.text-inc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;   
+    color: #000000;
+}
 
  .status {
      font-size: 16px;
@@ -77,24 +121,6 @@
      font-weight: bold;
  }
 
- .message-button {
-    position: absolute;
-    top: 50%;
-    right: 100px;
-    transform: translateY(-50%);
-    padding: 10px 20px;
-    background: #3D6AD6;
-    border-radius: 10px;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 5px;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    color: #FFFFFF;
- }
-
   .header-image {
       width: 100%;
       height: auto;
@@ -103,40 +129,41 @@
   .profile {
       position: relative;
       padding: 20px;
-      margin: 20px;
       border-radius: 5px;
       display: flex;
       align-items: center;
-  }
 
-  .profile-picture {
-      width: 250px;
-      height: 250px;
-      border-radius: 50%;
-      background-color: #ccc;
-      flex-shrink: 0;
-      position: relative;
-      margin-right: 20px;
-      z-index: 1;
-      margin-top: -100px;
-      /* Сдвигаем аватарку немного выше */
-  }
+            display: flex;
+            align-items: center;
+
+    }
 
   .profile-info {
       margin-right: 20px;
-      /* Отодвигаем информацию немного правее */
   }
 
   .name {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 49px;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+    margin-bottom: 10px;
   }
 
   .status {
-      font-size: 16px;
-      color: #777;
-      margin-bottom: 20px;
+    font-size: 16px;
+    color: #777;
+    position: relative;
+    top: -30px;
+    font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
   }
 
   .info {
@@ -149,19 +176,19 @@
   }
 
   .message-button {
-      position: absolute;
-      top: 50%;
-      right: 20px;
-      /* Отступ от правого края */
-      transform: translateY(-50%);
-      padding: 10px 20px;
-      background-color: #3b5998;
-      color: #fff;
-      font-weight: bold;
-      border-radius: 5px;
+
+    background-color: rgb(0, 123, 229);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 12px 140px 12px 140px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
   }
 
-  /* Стили для блока ссылок */
+
+
   .link-block {
       padding: 20px 0;
       padding-left: 40px;
@@ -195,3 +222,13 @@
       height: 2px;
       background-color: #3D6AD6;
   }
+
+  .reds {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+  }
+
+  
